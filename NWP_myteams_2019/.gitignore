@@ -1,0 +1,7 @@
+.vscode
+*.txt
+test
+myteams_server
+myteams_cli
+*.o
+a.out

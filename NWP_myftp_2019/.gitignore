@@ -1,0 +1,5 @@
+*.o
+myftp
+client.c
+client
+test_ftp.sh

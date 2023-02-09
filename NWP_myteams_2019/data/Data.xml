@@ -1,0 +1,96 @@
+<XML>
+    <Users>
+        <User>
+            <Name>Tom</Name>
+            <UUID>894897754135</UUID>
+        </User>
+        <User>
+            <Name>Tarek</Name>
+            <UUID>9978157644</UUID>
+        </User>
+        <User>
+            <Name>Manu</Name>
+            <UUID>9187845614</UUID>
+        </User>
+    </Users>
+    <Team>
+        <UUID>2198870800894520</UUID>
+        <Name>Teams Server</Name>
+        <Description>First server of the teams</Description>
+        <Subscribers>
+            <UUID>894897754135</UUID>
+            <UUID>9978157644</UUID>
+        </Subscribers>
+        <Channel>
+            <UUID>07614579814097421</UUID>
+            <Name>Tom Channel</Name>
+            <User>
+                <Name>Tom</Name>
+                <UUID>894897754135</UUID>
+            </User>
+            <Description>Channel of Tom</Description>
+            <Thread>
+                <UUID>97894807842107854</UUID>
+                <Name>First chat</Name>
+                <User>
+                    <Name>Tom</Name>
+                    <UUID>894897754135</UUID>
+                </User>
+                <Message>Test</Message>
+                <Reply>
+                    <UUID>9978157644</UUID>
+                    <Message>Ok</Message>
+                </Reply>
+            </Thread>
+            <Thread>
+                <UUID>7910672984520782</UUID>
+                <Name>Second chat</Name>
+                <User>
+                    <Name>Tarek</Name>
+                    <UUID>9978157644</UUID>
+                </User>
+                <Message>New test</Message>
+            </Thread>
+        </Channel>
+        <Channel>
+            <UUID>8708979540564087</UUID>
+            <Name>Tarek Channel</Name>
+            <User>
+                <Name>Tarek</Name>
+                <UUID>9978157644</UUID>
+            </User>
+            <Description>Channel of Tarek</Description>
+            <Thread>
+                <UUID>974520974120790802</UUID>
+                <Name>Chatting room</Name>
+                <User>
+                    <Name>Tarek</UUID>
+                    <UUID>9978157644</UUID>
+                </User>
+                <Message>Example</Message>
+                <Reply>
+                    <UUID>894897754135</UUID>
+                    <Message>Working</Message>
+                </Reply>
+            </Thread>
+        </Channel>
+    </Team>
+    <Team>
+        <UUID>3164572246091104</UUID>
+        <Name>EpiBullShit</Name>
+        <Description>New server for the teams</Description>
+        <Subscribers>
+            <UUID>9978157644</UUID>
+            <UUID>9187845614</UUID>
+        </Subscribers>
+        <Channel>
+            <UUID>646664515808908084</UUID>
+            <Name>Manu Channel</Name>
+            <User>
+                <Name>Manu</Name>
+                <UUID>9187845614</UUID>
+            </User>
+            <Description>Channel #1</Description>
+        </Channel>
+    </Team>
+</XML>
